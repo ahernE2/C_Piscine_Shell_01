@@ -1,4 +1,4 @@
-#/bin/sh
+#!/bin/sh
 # Definir los valores de FT_LINE1 y FT_LINE2
 FT_LINE1=7
 FT_LINE2=15
