@@ -1,3 +1,2 @@
 #/bin/sh
-FT_USER = "daemon"
-groups $FT_USER | tr -d '\n' | sed 's/ /,/g' | sed 's/ ,$//' | tr -d '\n'
+id -Gn $FT_USER | tr " " "," | tr -d "\n"
