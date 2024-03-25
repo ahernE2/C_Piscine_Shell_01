@@ -4,9 +4,6 @@
 total_files=$(find . -type f | wc -l)
 total_directories=$(find . -type d | wc -l)
 
-# Contar el directorio actual
-((total_directories++))
-
 # Imprimir el total de archivos y directorios
 echo "$(($total_files + $total_directories))"
 
